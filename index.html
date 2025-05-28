@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyla Xiomara Espinoza Morales - Portafolio</title>
+    <meta name="description" content="Portafolio de Desarrollo de Aplicaciones Web de Keyla Xiomara Espinoza Morales - Desarrolladora de Aplicaciones Web">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación elegante -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Portafolio </a>
+            <div class="nav-menu">
+                <a href="#inicio" class="nav-link">INICIO</a>
+                <a href="#contenido" class="nav-link">PORTAFOLIO</a>
+            </div>
+            <button class="nav-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Sección de inicio -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>✨ Desarrolladora de Aplicaciones Web</span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="gradient-text">Keyla Xiomara</span>
+                    <br>
+                    <span class="hero-subtitle">Espinoza Morales</span>
+                </h1>
+
+                <p class="hero-description">
+                    "Interesada en redes, aprendiendo desarrollo web con HTML y conociendo cómo funciona la creación de páginas.".
+                </p>
+
+                <!-- Botón con foto -->
+                <div class="photo-button-container">
+                    <button class="photo-button" onclick="scrollToContent()">
+                    <img src="images/foto_EMK.jpg" alt="Keyla Xiomara Espinoza Morales" class="photo-img">
+                        <div class="photo-overlay">
+                            <span>Ver Portafolio</span>
+                        </div>
+                    </button>
+                </div>
+
+                 <!-- Estadísticas -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-number">9</div>
+                        <div class="stat-label">Semestre</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Créditos</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contenido principal -->
+    <div id="contenido" class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <!-- Navegación de secciones -->
+                <div class="section-nav">
+                    <button class="nav-btn active" data-section="sobremi">
+                        <div class="nav-btn-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <span>Sobre Mí</span>
+                    </button>
+                    <button class="nav-btn" data-section="proyectos">
+                        <div class="nav-btn-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span>Proyectos</span>
+                    </button>
+                    <button class="nav-btn" data-section="cuaderno">
+                        <div class="nav-btn-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <span>Cuaderno</span>
+                    </button>
+                    <button class="nav-btn" data-section="reflexion">
+                        <div class="nav-btn-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <span>Reflexión</span>
+                    </button>
+                    <button class="nav-btn" data-section="bibliografia">
+                        <div class="nav-btn-icon">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                        <span>Bibliografía</span>
+                    </button>
+                    <button class="nav-btn" data-section="contacto">
+                        <div class="nav-btn-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span>Contacto</span>
+                    </button>
+                </div>
+
+                <!-- Contenido de las secciones -->
+                <div class="section-content">
+                    <!-- Sobre Mí -->
+                    <div id="sobremi" class="content-section active">
+                        <div class="section-header">
+                            <h2>Sobre Mí</h2>
+                            <div class="section-divider"></div>
+                        </div>
+
+                        <div class="about-content">
+                            <div class="about-image">
+                                <div class="image-container">
+                                    <img src="images/foto_EMK.jpg" alt="Mi nombre" width="200">
+                                    <div class="image-info">
+                                        <h3>Keyla Xiomara Espinoza Morales</h3>
+                                        <p>Desarrolladora </p>
+                                        <p class="university">Universidad Nacional del Centro del Perú</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="about-details">
+                                <div class="info-card">
+                                    <h3><i class="fas fa-quote-left"></i> Bienvenida e Introducción</h3>
+                                    <p><strong>¡Hola! Soy Keyla Xiomara,</strong> soy estudiante del noveno semestre de Ingeniería de Sistemas en la Universidad Nacional del Centro del Perú (UNCP), con un marcado interés en el área de tecnologías de la información. Me apasionan temas como la continuidad de TI, el hacking ético y el desarrollo web.</p>
+                                     <p>Creo que el conocimiento va más allá del aula: se construye también a través de la práctica, la exploración personal y la solución de problemas reales. Por ello busco fortalecer mis habilidades en el diseño de soluciones web con herramientas como HTML.</p>
+                                     <p>Mi objetivo es convertirme en una profesional integral, capaz de combinar conocimientos técnicos con responsabilidad social, para crear soluciones tecnológicas eficientes, accesibles y seguras.</p>
+                                </div>
+
+                                <div class="info-grid">
+                                    <div class="info-card">
+                                        <h3><i class="fas fa-user"></i> Información Personal</h3>
+                                        <ul class="info-list">
+                                            <li><span>Nombre:</span> Keyla Xiomara Espinoza Morales</li>
+                                            <li><span>Email:</span> keyla102003@gmail.com</li>
+                                            <li><span>Universidad:</span> Universidad Nacional del Centro del Perú</li>
+                                            <li><span>Carrera:</span>Ingenieria de Sistemas</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="info-card">
+                                        <h3><i class="fas fa-code"></i> Habilidades Técnicas</h3>
+                                        <div class="skills-list">
+                                            <div class="skill-item">
+                                                <div class="skill-header">
+                                                    <span>HTML5 & CSS3</span>
+                                                    <span>45%</span>
+                                                </div>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" style="width: 45%"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-header">
+                                                    <span>JavaScript & React</span>
+                                                    <span>50%</span>
+                                                </div>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" style="width: 50%"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <div class="skill-header">
+                                                    <span>Node.js & Express</span>
+                                                    <span>42%</span>
+                                                </div>
+                                                <div class="skill-bar">
+                                                    <div class="skill-progress" style="width: 42%"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyectos -->
+                    <div id="proyectos" class="content-section">
+                        <div class="section-header">
+                            <h2>Proyectos</h2>
+                            <div class="section-divider"></div>
+                            <p>Proyecto en proceso.</p>
+                        </div>
+
+                       <div class="projects-grid">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/portafolio.jpg" alt="Proyecto del curso">
+                                    <div class="project-status completed">En proceso</div>
+                                    <div class="project-overlay">
+                                        <a href="https://github.com/keyxio/Portafolio-de-Desarrollo-de-Aplicaciones-Web" class="project-link" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3>Portafolio</h3>
+                                    <p>Proyecto desarrollado durante el curso de Desarrollo de Aplicaciones Web. Consiste en un sistema CRUD para gestionar usuarios, con interfaz amigable y conexión a base de datos.</p>
+                                    <div class="project-tech">
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                        <span>JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Cuaderno -->
+                    <div id="cuaderno" class="content-section">
+                        <div class="section-header">
+                            <h2>Cuaderno de Aprendizaje</h2>
+                            <div class="section-divider"></div>
+                            <p>Registro detallado de mi proceso de aprendizaje semanal, incluyendo temas estudiados, ejercicios realizados y reflexiones sobre cada etapa del curso.</p>
+                        </div>
+
+                        <div class="notebook-content">
+                            <div class="week-card">
+                                <div class="week-header">
+                                    <div class="week-number">1</div>
+                                    <div class="week-info">
+                                        <h3>Semana 1</h3>
+                                        <p>Fundamentos de Tecnología Web</p>
+                                    </div>
+                                </div>
+                                <div class="week-content">
+                                    <div class="week-section">
+                                        <h4><i class="fas fa-book"></i> Temas Aprendidos</h4>
+                                        <ul>
+                                            <li>• Introducción a HTML5 y estructura semántica</li>
+                                            <li>• Conceptos básicos de CSS3 y diseño responsivo</li>
+                                            <li>• Fundamentos de JavaScript y DOM</li>
+                                            <li>• Herramientas de desarrollo web</li>
+                                        </ul>
+                                    </div>
+                                    <div class="week-section">
+                                        <h4><i class="fas fa-code"></i> Ejercicios de Laboratorio</h4>
+                                        <p>Creación de una página web básica con HTML y CSS</p>
+                                        <a href="#" class="download-link">
+                                            <i class="fas fa-download"></i> Descargar Resultados
+                                        </a>
+                                    </div>
+                                    <div class="week-section">
+                                        <h4><i class="fas fa-lightbulb"></i> Reflexión</h4>
+                                        <p><em>"Aprendí la importancia de la estructura semántica en HTML y cómo CSS puede transformar completamente la apariencia de una página web."</em></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Repetir para las demás semanas -->
+                            <div class="week-card">
+                                <div class="week-header">
+                                    <div class="week-number">2</div>
+                                    <div class="week-info">
+                                        <h3>Semana 2</h3>
+                                        <p>HTML, CSS y Diseño Web</p>
+                                    </div>
+                                </div>
+                                <div class="week-content">
+                                    <div class="week-section">
+                                        <h4><i class="fas fa-book"></i> Temas Aprendidos</h4>
+                                        <ul>
+                                            <li>• Flexbox y CSS Grid para layouts modernos</li>
+                                            <li>• Animaciones y transiciones CSS</li>
+                                            <li>• Metodologías CSS (BEM, SMACSS)</li>
+                                            <li>• Preprocesadores CSS (Sass, Less)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="week-section">
+                                        <h4><i class="fas fa-code"></i> Ejercicios de Laboratorio</h4>
+                                        <p>Desarrollo de un layout responsivo usando Flexbox y Grid</p>
+                                        <a href="#" class="download-link">
+                                            <i class="fas fa-download"></i> Descargar Resultados
+                                        </a>
+                                    </div>
+                                    <div class="week-section">
+                                        <h4><i class="fas fa-lightbulb"></i> Reflexión</h4>
+                                        <p><em>"Comprendí cómo los sistemas de layout modernos facilitan la creación de diseños complejos y responsivos."</em></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Continuar con las demás semanas... -->
+                        </div>
+                    </div>
+
+                    <!-- Reflexión Final -->
+                    <div id="reflexion" class="content-section">
+                        <div class="section-header">
+                            <h2>Reflexión Final</h2>
+                            <div class="section-divider"></div>
+                        </div>
+
+                        <div class="reflection-content">
+                            <div class="reflection-header">
+                                <div class="reflection-icon">💭</div>
+                                <h3>Reflexión Metacognitiva</h3>
+                            </div>
+
+                            <div class="reflection-sections">
+                                <div class="reflection-card">
+                                    <h4><i class="fas fa-question-circle"></i> ¿Qué aprendí durante este curso?</h4>
+                                    <p>Durante este curso de desarrollo web, he experimentado un crecimiento significativo tanto en conocimientos técnicos como en habilidades de resolución de problemas. Aprendí desde los fundamentos de HTML, CSS y JavaScript hasta conceptos avanzados de React y desarrollo full-stack.</p>
+                                    <p>Más allá de las tecnologías específicas, desarrollé una comprensión profunda de los principios de diseño web, la importancia de la experiencia del usuario, y cómo estructurar proyectos de manera escalable y mantenible.</p>
+                                </div>
+
+                                <div class="reflection-card">
+                                    <h4><i class="fas fa-lightbulb"></i> ¿Cómo aplicaré estos conocimientos?</h4>
+                                    <p>Los conocimientos adquiridos serán fundamentales para mi desarrollo profesional. Planeo aplicarlos en proyectos reales, tanto personales como profesionales, creando aplicaciones web que resuelvan problemas reales y aporten valor a los usuarios.</p>
+                                    <p>También utilizaré estas habilidades para contribuir a proyectos de código abierto, colaborar con otros desarrolladores y continuar mi formación en tecnologías emergentes.</p>
+                                </div>
+
+                                <div class="reflection-card">
+                                    <h4><i class="fas fa-calendar"></i> Reflexión por Semana y Fin de Curso</h4>
+                                    <div class="reflection-grid">
+                                        <div>
+                                            <h5>Evolución Semanal</h5>
+                                            <ul>
+                                                <li>• <strong>Semanas 1-2:</strong> Fundamentos sólidos en HTML/CSS</li>
+                                                <li>• <strong>Semanas 3-4:</strong> Dominio de JavaScript y ES6+</li>
+                                                <li>• <strong>Semanas 5-6:</strong> Comprensión profunda de React</li>
+                                                <li>• <strong>Evaluación:</strong> Integración exitosa de conocimientos</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>Logros Principales</h5>
+                                            <ul>
+                                                <li>• Desarrollo de aplicaciones web completas</li>
+                                                <li>• Implementación de mejores prácticas</li>
+                                                <li>• Creación de interfaces responsivas</li>
+                                                <li>• Gestión eficiente de estado en React</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bibliografía -->
+                    <div id="bibliografia" class="content-section">
+                        <div class="section-header">
+                            <h2>Bibliografía</h2>
+                            <div class="section-divider"></div>
+                            <p>Recursos bibliográficos y documentación utilizada durante mi proceso de aprendizaje.</p>
+                        </div>
+
+                        <div class="bibliography-content">
+                            <h3><i class="fas fa-book"></i> Libros y Documentación</h3>
+                            <div class="bibliography-list">
+                                <div class="bibliography-item">
+                                    <div class="bib-icon">
+                                        <i class="fas fa-book"></i>
+                                    </div>
+                                    <div class="bib-content">
+                                        <h4>Pro Git</h4>
+                                        <p><strong>Chacon, S., & Straub, B.</strong> (2021) - Versión 2.1.22-4-g2264d13</p>
+                                        <span class="bib-type">Libro</span>
+                                    </div>
+                                    <a href="https://github.com/progit/progit2-es/releases/download/2.1.23/progit.pdf" target="_blank" class="bib-link">
+                                        <i class="fas fa-external-link-alt"></i> Acceder
+                                    </a>
+                                </div>
+
+                                <div class="bibliography-item">
+                                    <div class="bib-icon">
+                                        <i class="fas fa-book"></i>
+                                    </div>
+                                    <div class="bib-content">
+                                        <h4>El gran libro de HTML5, CSS3 y JavaScript</h4>
+                                        <p><strong>Gauchat, J. D.</strong> (2017) - 3a ed. - Marcombo</p>
+                                        <span class="bib-type">Libro</span>
+                                    </div>
+                                    <a href="#" target="_blank" class="bib-link">
+                                        <i class="fas fa-external-link-alt"></i> Acceder
+                                    </a>
+                                </div>
+
+                                <div class="bibliography-item">
+                                    <div class="bib-icon">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <div class="bib-content">
+                                        <h4>MDN Web Docs - JavaScript</h4>
+                                        <p><strong>Mozilla Developer Network</strong> (2024)</p>
+                                        <span class="bib-type">Documentación</span>
+                                    </div>
+                                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" class="bib-link">
+                                        <i class="fas fa-external-link-alt"></i> Acceder
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trayectoria -->
+                    <div id="trayectoria" class="content-section">
+                        <div class="section-header">
+                            <h2>Trayectoria Profesional</h2>
+                            <div class="section-divider"></div>
+                        </div>
+
+                        <div class="trajectory-content">
+                            <div class="trajectory-section">
+                                <h3><i class="fas fa-graduation-cap"></i> Educación</h3>
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker education"></div>
+                                        <div class="timeline-content">
+                                            <div class="timeline-header">
+                                                <h4>Ingeniería en Ciencias de la Computación</h4>
+                                                <span class="status current">En curso</span>
+                                            </div>
+                                            <div class="timeline-meta">
+                                                <span>Universidad de El Salvador</span>
+                                                <span class="period">2020 - Presente</span>
+                                            </div>
+                                            <p>Formación integral en ciencias de la computación con énfasis en desarrollo de software, algoritmos y estructuras de datos.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker education"></div>
+                                        <div class="timeline-content">
+                                            <div class="timeline-header">
+                                                <h4>Certificación en Desarrollo Web Full Stack</h4>
+                                                <span class="status completed">Completado</span>
+                                            </div>
+                                            <div class="timeline-meta">
+                                                <span>FreeCodeCamp</span>
+                                                <span class="period">2023</span>
+                                            </div>
+                                            <p>Certificación completa en desarrollo web frontend y backend, incluyendo HTML, CSS, JavaScript, React y Node.js.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="trajectory-section">
+                                <h3><i class="fas fa-briefcase"></i> Experiencia Profesional</h3>
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker experience"></div>
+                                        <div class="timeline-content">
+                                            <div class="timeline-header">
+                                                <h4>Desarrolladora Frontend</h4>
+                                                <span class="job-type">Tiempo completo</span>
+                                            </div>
+                                            <div class="timeline-meta">
+                                                <span>TechSolutions Inc.</span>
+                                                <span class="period">2023 - Presente</span>
+                                            </div>
+                                            <p>Desarrollo de interfaces de usuario modernas y responsivas usando React, implementación de mejores prácticas de UX/UI.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker experience"></div>
+                                        <div class="timeline-content">
+                                            <div class="timeline-header">
+                                                <h4>Desarrolladora Web Freelance</h4>
+                                                <span class="job-type">Freelance</span>
+                                            </div>
+                                            <div class="timeline-meta">
+                                                <span>Proyectos Independientes</span>
+                                                <span class="period">2022 - 2023</span>
+                                            </div>
+                                            <p>Creación de sitios web y aplicaciones para pequeñas empresas y emprendedores, desde el diseño hasta el despliegue.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certificados -->
+                    <div id="certificados" class="content-section">
+                        <div class="section-header">
+                            <h2>Certificados y Logros</h2>
+                            <div class="section-divider"></div>
+                            <p>Certificaciones y reconocimientos obtenidos durante mi formación profesional.</p>
+                        </div>
+
+                        <div class="certificates-grid">
+                            <div class="certificate-card">
+                                <div class="certificate-image">
+                                    <img src="https://via.placeholder.com/300x200/1e293b/3b82f6?text=Security+Certificate" alt="Certificado de Seguridad">
+                                    <span class="certificate-type">Constancia</span>
+                                </div>
+                                <div class="certificate-content">
+                                    <h3>Fundamentos de Seguridad de la Información</h3>
+                                    <div class="certificate-meta">
+                                        <p>Centro Nacional de Seguridad Digital</p>
+                                        <p>2024</p>
+                                    </div>
+                                    <div class="certificate-skills">
+                                        <span>Ciberseguridad</span>
+                                        <span>Gestión de Riesgos</span>
+                                        <span>Protección de Datos</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="certificate-card">
+                                <div class="certificate-image">
+                                    <img src="https://via.placeholder.com/300x200/1e293b/8b5cf6?text=Data+Science" alt="Certificado de Ciencia de Datos">
+                                    <span class="certificate-type">Certificado</span>
+                                </div>
+                                <div class="certificate-content">
+                                    <h3>Introducción a la Ciencia de Datos</h3>
+                                    <div class="certificate-meta">
+                                        <p>Cisco Networking Academy</p>
+                                        <p>2024</p>
+                                    </div>
+                                    <div class="certificate-skills">
+                                        <span>Python</span>
+                                        <span>Análisis de Datos</span>
+                                        <span>Visualización</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="certificate-card">
+                                <div class="certificate-image">
+                                    <img src="https://via.placeholder.com/300x200/1e293b/10b981?text=Linux+Essential" alt="Certificado Linux">
+                                    <span class="certificate-type">Certificado</span>
+                                </div>
+                                <div class="certificate-content">
+                                    <h3>NDG Linux Esencial</h3>
+                                    <div class="certificate-meta">
+                                        <p>Cisco Networking Academy</p>
+                                        <p>2023</p>
+                                    </div>
+                                    <div class="certificate-skills">
+                                        <span>Linux</span>
+                                        <span>Terminal</span>
+                                        <span>Administración de Sistemas</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contacto -->
+                    <div id="contacto" class="content-section">
+                        <div class="section-header">
+                            <h2>Contacto</h2>
+                            <div class="section-divider"></div>
+                            <p>¿Tienes un proyecto en mente o quieres colaborar? Me encantaría escuchar de ti.</p>
+                        </div>
+
+                        <div class="contact-content">
+                            <div class="contact-info">
+                                <h3><i class="fas fa-envelope"></i> Información de Contacto</h3>
+                                <div class="contact-items">
+                                    <div class="contact-item">
+                                        <div class="contact-icon email">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div>
+                                            <p><strong>Email</strong></p>
+                                            <p>keyla.espinoza@example.com</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-item">
+                                        <div class="contact-icon phone">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        <div>
+                                            <p><strong>Teléfono</strong></p>
+                                            <p>+503 1234-5678</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="contact-item">
+                                        <div class="contact-icon location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div>
+                                            <p><strong>Ubicación</strong></p>
+                                            <p>San Salvador, El Salvador</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="social-section">
+                                <h3><i class="fas fa-share-alt"></i> Redes Sociales</h3>
+                                <div class="social-grid">
+                                    <a href="#" class="social-link linkedin">
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <span>LinkedIn</span>
+                                    </a>
+                                    <a href="#" class="social-link github">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                    <a href="#" class="social-link instagram">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a href="#" class="social-link twitter">
+                                        <i class="fab fa-twitter"></i>
+                                        <span>Twitter</span>
+                                    </a>
+                                </div>
+
+                                <div class="collaboration-card">
+                                    <h4>¿Listo para colaborar?</h4>
+                                    <p>Estoy disponible para proyectos freelance, colaboraciones y oportunidades de trabajo.</p>
+                                    <button class="contact-btn">Enviar Mensaje</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-social">
+                <a href="#" class="footer-social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="footer-social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="footer-social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="footer-social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <p class="footer-text">
+                © 2024 Keyla Xiomara Espinoza Morales.
+                <span>Diseñado con ❤️ y mucha dedicación.</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
